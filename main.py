@@ -51,7 +51,7 @@ os.makedirs("static", exist_ok=True)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Global configuration
-GEMINI_API_KEY = "AIzaSyAMAYxkjP49QZRCg21zImWWAu7c3YHJ0a8"  # Replace with your key
+GEMINI_API_KEY = "****************"  # Replace with your key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Global variables
